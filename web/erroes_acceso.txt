@@ -1,0 +1,1 @@
+Archivo para el log de erores de acceso
