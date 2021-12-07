@@ -21,7 +21,7 @@ public static function enviarCorreo($sendTo, $asunto, $mensaje)
         $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
         $mail->Username   = 'alexdaw1920@gmail.com';                     // SMTP username
-        $mail->Password   = '149755locos';                               // SMTP password
+        $mail->Password   = '**********';                               // SMTP password
         $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
         $mail->Port       = 587; 
 
