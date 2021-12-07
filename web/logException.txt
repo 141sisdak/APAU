@@ -1,0 +1,10 @@
+Excepcion producida el 25-01-20212021 a las 17:01:23SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'P-6' for key 'PRIMARY'
+Excepcion producida el 25-01-20212021 a las 18:01:05SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'P-6' for key 'PRIMARY'
+Excepcion producida el 25-01-20212021 a las 18:01:18SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'P-6' for key 'PRIMARY'
+Excepcion producida el 27-01-20212021 a las 17:01:57SMTP Error: Could not authenticate.
+Excepcion producida el 27-01-20212021 a las 17:01:20SMTP Error: Could not authenticate.
+Excepcion producida el 27-01-20212021 a las 17:01:16SMTP Error: Could not authenticate.
+Excepcion producida el 27-01-20212021 a las 17:01:25SMTP Error: Could not authenticate.
+Excepcion producida el 27-01-20212021 a las 17:01:02SMTP Error: Could not authenticate.
+Excepcion producida el 27-01-20212021 a las 17:01:54SMTP Error: Could not authenticate.
+Excepcion producida el 27-01-20212021 a las 17:01:38SMTP Error: Could not authenticate.
