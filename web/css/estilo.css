@@ -1,0 +1,1863 @@
+.idOculto{
+    display: none;
+}
+
+
+.labelRango{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.verEnvatras{
+    cursor: default;
+}
+
+.asignarEnvatra{
+    cursor: pointer;
+}
+
+.contenedor_pc{
+	margin-left: 250px;
+}
+
+
+
+
+
+/* B-Fuentes */
+
+@font-face{
+	font-family: "mont_bold";
+	src:url("../css/fuentes/Karla-Bold.ttf");
+}
+
+@font-face{
+	font-family: mont_medium;
+	src:url("../css/fuentes/Montserrat-Medium.ttf");
+}
+
+@font-face{
+	font-family: karla_bold;
+	src:url("../css/fuentes/Karla-Bold.ttf");
+}
+
+@font-face{
+	font-family: karla_normal;
+	src:url("../css/fuentes/Karla-Regular.ttf");
+}
+
+@font-face{
+	font-family: rubik;
+	src:url("../css/fuentes/Rubik-Bold.ttf");
+}
+
+@font-face{
+	font-family: rubik-regular;
+	src: url("../css/fuentes/Rubik-Regular.ttf");
+}
+
+
+/* B-Login */
+
+.bg {
+ 
+  background-image: url(../css/imagenes/bg_login.jpg);
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.principal_login{
+    margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 350pt;
+	top: 50pt;
+    position: relative;
+}
+.principal_login .nuevo{
+	margin-top: 50px;
+}
+#btnRecordar{
+	font-family: karla_normal;
+	color: white;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+
+#letra_logo{
+	font-family: mont_bold;
+	font-size: 50pt;
+	margin-bottom: 5pt;
+	color: white;
+}
+#desc_logo{
+	font-family: mont_medium;
+	font-size: 14pt;
+	color: white;
+	width: 178pt;
+	text-align: center;
+	margin-bottom: 39pt;
+}
+
+#logo{
+	
+	 max-width: 121pt;
+	 max-height: 130pt;
+	 margin-bottom: 5pt;
+}
+
+#saludo{
+	font-family: rubik;
+	color: white;
+	font-size: 48pt;
+	margin-bottom: 22pt;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: white;
+  font-family: karla_normal;
+  font-size: 12pt;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+  font-family: karla_normal;
+  font-size: 12pt;
+}
+
+::placeholder {
+  color: white;
+  font-family: karla_normal;
+  font-size: 12pt;
+}
+
+.input_login, #enviar{
+	height: 49pt;
+	width: 349pt;
+	border-radius: 24.5pt;
+	opacity: 72%;
+	background-color: #4f7fdd;
+	border:none;
+	color: white;
+	font-family: karla_normal;
+}
+
+#enviar{
+	background-color: white;
+	color: #4f7fdd !important;
+	font-family: rubik;
+	font-size: 24pt;
+	opacity: 1;
+}
+
+.input_login{
+	padding-left: 20pt;
+	margin-bottom: 21pt;
+}
+
+.errorValidacion, #falloAutenticacion{
+	font-family: karla_bold;
+	margin-top: 5px;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 10px;
+	color:  #FD7A7C;
+	
+	
+}
+
+span#usuVacio, span#passVacio{
+	font-family: karla_bold;
+	color: white;
+	display:none;
+	margin-bottom: 10px;
+}
+
+
+
+#formLogin{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+#badLogin{
+	color: white;
+	font-size: 15px;
+	margin-bottom: 20px;
+	font-family: karla_bold;
+
+}
+
+#mens_conf_usu_reg_text{
+	color: orange;
+	text-decoration: underline orange;
+}
+
+/* B-sidebar */
+
+
+
+.sidebar {
+	margin: 0;
+	padding: 0;
+	width: 228px;
+	background-color: #4F7FDD;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+
+
+/* Sidebar links */
+
+.sidebar a {
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+
+/* Active/current link */
+
+.sidebar a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+
+/* Links on mouse-over */
+/*
+.sidebar a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+*/
+
+
+
+/* B-Sidebar */
+
+.barra,
+.filtrosRescate {
+	margin-left: 250px;
+	
+}
+
+.sidebar-content {
+	margin-top: 29px;
+	margin-left: 31px;
+}
+
+.sidebar-menu {
+	margin-top: 50px;
+}
+
+.sidebar-item {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 40px;
+	align-items: center;
+	border-radius: 4px 0 0 4px;
+}
+
+div.sidebar-item:hover{
+	background-color: #2559c1;
+}
+
+.icono-menuItem {
+	height: 37px;
+	width: 37px;
+	background-color: #7698e0;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.sidebar-item>a {
+	margin-left: 22px;
+	font-family: "rubik-regular";
+	font-size: 16px;
+	color: white;
+	letter-spacing: 0;
+	line-height: 19px;
+}
+
+.icono-menuItem img {
+	height: 17px;
+	width: 16px;
+}
+
+.sidebar-logo img {
+	height: 61px;
+	width: 64px;
+}
+
+.espacio {
+	height: 20px;
+}
+
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+
+@media screen and (max-width: 700px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.sidebar a {
+		float: left;
+	}
+	div.content {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.sidebar a {
+		text-align: center;
+		float: none;
+	}
+}
+
+body {
+	background-color: #F6F7FC;
+	
+}
+
+span {
+	cursor: default;
+}
+
+/* B-Navbar */
+
+nav {
+	background-color: white;
+	width: 1149px;
+	margin-left: 250px;
+	border-radius: 6px;
+	left: 250px;
+	
+	
+}
+
+#logout{
+	padding: 5px 7px 5px 7px;
+	background-color:#2559c1;
+	border-radius: 6px;
+}
+
+.usuario {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.usuario span {
+	font-family: karla_normal;
+	margin-left: 20px;
+	cursor: default;
+	color: #838383;
+	font-size: 16px;
+}
+
+#flechaDrop{
+	margin-left: 15px;
+	position: relative;
+	top: -3px;
+}
+
+.dropUsu{
+	margin-left: 3px;
+	position: relative;
+}
+
+.btnDropUsu{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.contenidoDropUsu ul{
+	padding-left: 10px;
+	
+}
+
+.contenidoDropUsu li{
+	line-height: 32px;
+	
+	font-family: karla_normal;
+	color:  #838383;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.contenidoDropUsu li:hover{
+	background-color:  #e6e6e6;
+}
+
+
+
+
+
+
+/* B-Filtros */
+
+.filtrosRescate {
+	height: 331px;
+	background-color: white;
+	margin-top: 20px;
+	width: 1149px;
+	border-radius: 6px;
+}
+
+.titulo-entidad {
+	font-size: 32px;
+	color: #4F7FDD;
+	font-family: rubik;
+	margin-top: 16px;
+	margin-left: 33px;
+	display: block;
+}
+
+.nuevo {
+	background-color: #77D9C3;
+	color: white;
+	border-radius: 6px;
+	font-size: 18px;
+	font-family: "rubik-regular";
+	display: block;
+	margin-top: 16px;
+	float: right;
+	margin-right: 19px;
+}
+
+.cab-filtros {
+	height: 50px;
+}
+
+.col-hr {
+	padding-left: 0;
+}
+
+.separador {
+	height: 20px;
+	display: block;
+}
+
+.lblFiltros {
+	font-family: karla_normal;
+	font-size: 16px;
+	color: #838383;
+}
+
+.grid-filtros {
+	display: grid;
+	grid-template-columns: 180px 200px 180px 200px 180px 180px;
+	grid-template-rows: repeat(6, auto);
+	width: auto;
+	position: relative;
+	margin-right: 709px;
+	left: 33px;
+}
+
+.grid-filtros>div {
+	text-align: left;
+	font-size: 16px;
+}
+
+.cab-item-filtros {
+	color: #838383;
+	font-size: 16px;
+	font-family: karla_normal;
+	margin-bottom: 8px;
+}
+
+#fNacimiento {
+	grid-column: 1 / span 2;
+}
+
+#fIngreso {
+	grid-column: 3 / span 2;
+}
+
+#fDesp {
+	grid-column: 5 / span 2;
+}
+
+.lblRango {
+	font-size: 16px;
+	font-family: karla_normal;
+	color: #77D9C3;
+	margin-bottom: 8px;
+}
+
+.inputDate input{
+	height: 27px;
+	border-radius: 4px;
+	width: 155px;
+	margin-bottom: 17px;
+	font-family: karla_normal;
+	border: 1px solid #838383;
+	
+}
+
+#lblBusqueda {
+	grid-column: 3 / span 4;
+}
+
+.inputBusqueda {
+	grid-column: 3 / span 4;
+	height: 27px;
+	width: 70%;
+	border-radius: 4px;
+	border: 1px solid #838383;
+	font-family: karla_normal;
+}
+
+
+.btnBorrarFiltros {
+	background-color: #FD7A7C;
+	font-family: rubik-regular;
+	color: white;
+	font-size: 18px;
+	width: 156px;
+	margin-top: 15px;
+}
+
+/* B-Tabla */
+
+#tablaRescates{
+	width: 100% !important;
+	
+}
+
+.cont_tabla{
+	margin-top: 50px;
+	margin-left: 250px;
+	width: 90%;
+	overflow-x: scroll;
+	
+}
+.dataTables_length{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: karla_normal;
+	font-size: 14px;
+	
+}
+
+div#tablaRescates_length.dataTables_length label > select{
+	font-family: karla_normal;
+	font-size: 14px;
+	width: 50%;
+	margin-left: 8px;
+}
+
+
+table>thead {
+	background-color: #F9FAFC;
+	border-radius: 6px;
+}
+
+table.dataTable thead th {
+	font-family: karla_normal;
+	font-weight: normal;
+	border-bottom: 5px solid #F6F7FC !important;
+	border-top: 0;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+
+
+
+table.dataTable tbody tr {
+	text-align: center;
+}
+
+table.dataTable.no-footer {
+	border-bottom: 0;
+}
+
+table.dataTable {
+	
+	font-family: karla_normal;
+	border-radius: 6px;
+	font-size: 12px;
+	color: #838383;
+	
+}
+
+.dropdownTratamientos{
+	margin-right: 70px;
+}
+
+
+.table tbody tr {
+	
+	border-top: 0;
+}
+
+table thead th, table thead th.sorting{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.pagination{
+	float: left;
+	
+}
+
+.paginate_button{
+	margin-right: 10px;
+}
+
+
+
+ul.pagination{
+	font-family: karla_normal;
+	
+}
+
+
+/* B-Drops tabla */
+
+.drop_tabla_rescates{
+	border-radius: 6px;
+	height: 32px;
+	padding: 0 !important;
+  	border: 0 none !important;
+  	display: flex;
+  	align-items: center;
+  	cursor: pointer;
+}
+
+
+
+.dataTables_info{
+	font-family: karla_normal;
+}
+
+.drop_tabla_rescates img:first-child{
+	margin-left: 3px;
+}
+
+.drop_tabla_rescates img:last-child{
+	margin-left: 8px;
+}
+
+.dropdownMenuEnfermedades{
+	width: 140px;
+	background-color: #FD7A7C;
+}
+
+.texto_drop_tabla{
+	color:white;
+	font-family: "karla_normal";
+	font-size: 12px;
+	margin-left: 8px;
+}
+
+.dropdownMenuAcciones{
+	width: 53px;
+	background-color: #809BFC;
+	
+}
+
+.dropdownVacunas{
+	width: 110px;
+	background-color: #FCA95F;
+}
+
+.dropdownTratamientos{
+	background-color: #36C3E2;
+	width: 132px
+}
+
+.selects_tabla_rescates{
+	padding: 5px 30px 5px 5px;
+	border: 1px solid #CCC;
+	color: #838383;
+	border-radius: 4px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(../css/imagenes/flecha_select.png) 90% / 7px no-repeat transparent;
+
+	
+}
+
+table.dataTable thead th:nth-child(12) select{
+	background: url(../css/imagenes/flecha_select.png) 90% / 7px no-repeat transparent;
+}
+
+/* B_Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #D4E3FF; 
+	border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #4F7FDD; 
+	border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #3F65B0; 
+  }
+
+
+select::-ms-expand {
+    display: none; /* Remove default arrow in Internet Explorer 10 and 11 */
+}
+
+/* Target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select {
+        background: none\9;
+        padding: 5px\9;
+    }
+}
+
+/*B-Checkbox*/
+
+/* CSS Created by CSS CHECKBOX */
+/**********************************/
+/**** www.CSScheckbox.com *********/
+
+/*general styles for all CSS Checkboxes*/
+label {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	}
+	
+	input[type=checkbox].css-checkbox {
+		  position: absolute; 
+		overflow: hidden; 
+		clip: rect(0 0 0 0); 
+		height:1px; 
+		width:1px; 
+		margin:-1px; 
+		padding:0;
+		border:0;
+		
+	}
+	
+	input[type=checkbox].css-checkbox + label.css-label {
+		padding-left:20px;
+		height:15px; 
+		display:inline-block;
+		line-height:15px;
+		background-repeat:no-repeat;
+		background-position: 0 0;
+		font-size:15px;
+		vertical-align:middle;
+		cursor:pointer;
+		font-family: karla_normal !important;
+		color: #77D9C3;
+		
+	}
+	
+	input[type=checkbox].css-checkbox:checked + label.css-label {
+		background-position: 0 -15px;
+		
+	}
+	
+	.css-label{
+		
+		background-image:url(http://csscheckbox.com/checkboxes/dark-check-green.png);
+	}
+	
+	/*specific classes related to Checkbox skins*/
+	
+	
+	.lite-cyan-check{background-image:url(http://csscheckbox.com/checkboxes/lite-cyan-check.png);}
+	
+	
+	.lite-x-cyan{background-image:url(http://csscheckbox.com/checkboxes/lite-x-cyan.png);}
+	
+	
+	
+	
+	input[type=checkbox].css-checkbox.med + label.css-label.med {
+		padding-left:22px;
+		height:17px; 
+		display:inline-block;
+		line-height:17px;
+		background-repeat:no-repeat;
+		background-position: 0 0;
+		font-size:15px;
+		vertical-align:middle;
+		cursor:pointer;
+		
+	}
+	
+	input[type=checkbox].css-checkbox.med:checked + label.css-label.med {
+	
+		background-position: 0 -17px;
+	}
+	input[type=checkbox].css-checkbox.sme + label.css-label.sme {
+		padding-left:22px;
+		height:16px; 
+		display:inline-block;
+		line-height:16px;
+		background-repeat:no-repeat;
+		background-position: 0 0;
+		font-size:15px;
+		vertical-align:middle;
+		cursor:pointer;
+	}
+	
+	input[type=checkbox].css-checkbox.sme:checked + label.css-label.sme{
+	
+		background-position: 0 -16px;
+	}
+	input[type=checkbox].css-checkbox.lrg + label.css-label.lrg {
+		padding-left:22px;
+		height:20px; 
+		display:inline-block;
+		line-height:20px;
+		background-repeat:no-repeat;
+		background-position: 0 0;
+		font-size:15px;
+		vertical-align:middle;
+		cursor:pointer;
+	}
+	
+	input[type=checkbox].css-checkbox.lrg:checked + label.css-label.lrg{
+	
+		background-position: 0 -20px;
+	}
+
+	/*B-Estilo radiobutton*/
+
+	.containerRadio {
+		display: block;
+		position: relative;
+		padding-left: 35px;
+		padding-bottom: 35px;
+		cursor: pointer;
+		font-size: 16px;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		font-family: karla_normal;
+	  }
+	  
+	  /* Hide the browser's default radio button */
+	  .containerRadio input {
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+	  }
+
+	  label.containerRadio{
+		  color: #838383 !important;
+	  }
+	  
+	  /* Create a custom radio button */
+	  .checkmark {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 16px;
+		width: 16px;
+		background-color: white;
+		border:1px solid #E6E6E6;
+		border-radius: 50%;
+	  }
+	  
+	  /* On mouse-over, add a grey background color */
+	  .containerRadio:hover input ~ .checkmark {
+		background-color: #F9F9F9;
+	  }
+	  
+	  /* When the radio button is checked, add a blue background */
+	  .containerRadio input:checked ~ .checkmark {
+		background-color: white;
+	  }
+	  
+	  /* Create the indicator (the dot/circle - hidden when not checked) */
+	  .checkmark:after {
+		content: "";
+		position: absolute;
+		display: none;
+	  }
+	  
+	  /* Show the indicator (dot/circle) when checked */
+	  .containerRadio input:checked ~ .checkmark:after {
+		display: block;
+	  }
+	  
+	  /* Style the indicator (dot/circle) */
+	  .containerRadio .checkmark:after {
+		  top: 0.1em;
+		  left: 2px;
+		  width: 10px;
+		  height: 10px;
+		  border-radius: 50%;
+		  background: #77D9C3;
+	  }
+
+	/*B - Form nuevo rescate*/
+
+span.titulo-modal{
+	margin-top: 3px;
+	font-size: 20px;
+	color: #4F7FDD;
+	font-family: rubik;
+	
+}
+
+.modal :not(.titulo-modal){
+	font-family: karla_normal;
+	
+}
+
+.modal :not(.titulo-modal) label{
+	padding-bottom: 3px;
+
+	color: #77D9C3;
+
+}
+
+/*Modal confirmacion*/
+#modal_confirmacion .modal-body{
+	margin: auto;
+}
+
+#formAdotante{
+	border: 3px solid #4F7FDD;
+	border-radius: 6px;
+	padding-top: 15px;
+	background-color: #F5F5F5;
+	
+	
+}
+
+#nSelTratamientos, #nSelEnferemedades, #nSelVacunas{
+	width: 100%;
+	overflow-x: hidden;
+}
+
+#nSelLocalidad, #nSelRefugio, #nSelTamanyo, #nSelEspecie, #nSelAdoptante, #nSelRaza{
+	padding: 5px 30px 5px 5px;
+	width: 100%;
+	border: 1px solid #CCC;
+	color: #838383;
+	border-radius: 4px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(../css/imagenes/flecha_select.png) 90% / 7px no-repeat transparent;
+}
+
+#nSelLocalidad{
+	width: 100%;
+	background: url(../css/imagenes/flecha_select.png) 95% / 7px no-repeat transparent !important;
+}
+
+
+
+
+/*B - Panel control*/
+
+.contenedor_pc{
+	width: 60%;
+	margin-top: 50px;
+	
+}
+
+.contenedor_pc hr{
+	margin-bottom: 30px;
+}
+
+.cont_entidad_pc_usuarios{
+	position: relative;
+	height: 391px;
+	width: 258px;
+	background-color:white;
+	border-radius: 10px;
+	display: block;
+}
+
+.cont_entidad_pc_usuarios:hover, .cont_entidad_pc:hover{
+background-color: #E7E7E7 ;
+}
+
+
+
+.cont_entidad_pc_usuarios img{
+	position: absolute;
+	top: 118px;
+	left: 44px;
+
+}
+
+.cont_entidad_pc_usuarios span {
+	position: absolute;
+	top: 334px;
+	left: 26px;
+	font-size: 28px;
+	font-family: rubik;
+	color: #838383;
+	cursor: pointer;
+
+}
+
+
+.cont_entidad_pc{
+	position: relative;
+	height: 189px;
+	width: 258px;
+	background-color:white;
+	border-radius: 10px;
+
+}
+
+.cont_entidad_pc img{
+	position: absolute;
+	top: 21px;
+	left: 160px;
+
+}
+
+.cont_entidad_pc span{
+	position: absolute;
+	top: 133px;
+	left: 20px;
+	font-size: 28px;
+	font-family: rubik;
+	color: #838383;
+	cursor: pointer;
+
+}
+
+/* B- Dashboard inicio*/
+
+
+.cont_inicio{
+	margin-left: 250px;
+	margin-top: 35px;
+	width: max-content;
+	display: flex;
+	flex-direction: column;
+}
+
+.cont_inicio .cont_entidad_pc span:nth-of-type(1){
+	
+	
+	position: absolute;
+	top: 86px;
+	left: 22px;
+	font-size: 42px;
+	font-family: rubik;
+	color: #838383;
+	cursor: pointer;
+}
+
+.ilustracion{
+	position: relative;
+	margin-left:26px ;
+}
+
+.ilustracion img:first-child{
+	width: 542px;
+	height: 569px;
+	position: relative;
+	top: -150px;
+	left: 450px;
+}
+
+.ilustracion img:last-child{
+	position: relative;
+	top: 250px;
+	left: -1200px;
+	width: 214px;
+	height: 346px;
+}
+
+/*B-Ficha animal*/
+
+.cont_principal_ficha{
+	margin-left: 250px;
+	width: 1130px;
+}
+
+.cont_cabeceraVerFicha{
+	margin-top: 24px;
+	width: 1250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 25px;
+
+}
+
+div.cont_cabeceraVerFicha span{
+	margin-top: 10px;
+}
+
+a.linkModFicha{
+	background-color:#4F7FDD;
+	text-decoration: none;
+	color: white;
+	border-radius: 6px;
+	font-size: 18px;
+	line-height: 22px;
+	height: 38px;
+	width: 141px;
+	font-family: rubik-regular;
+	cursor: pointer;
+	margin-right: 31px;
+	
+	
+}
+
+a.linkModFicha:hover{
+	pointer-events: unset; 
+}
+
+.cont_datos{
+	width: inherit;
+	
+}
+
+.cont_datosVerFicha{
+	padding-left: 44px;
+	padding-top: 10px;
+	
+	
+}
+
+.columnaIzqFicha{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 10px;
+	padding-top: 27px;
+	padding-bottom: 10px;
+	padding-left: 27px;
+	padding-right: 27px;
+	max-width: 370px;
+	
+}
+
+.cont_foto {
+	position: relative;
+	max-height:190px;
+	max-width: 190px;
+	margin: auto;
+}
+
+.cont_foto img:first-child{
+	width: 190px;
+	height: 190px;
+	object-fit: cover;
+	border-radius: 50%
+}
+
+
+
+
+.cont_foto img:last-child{
+	position: relative;
+	width: 74px;
+	height: 74px;
+	background-color: black;
+	border-radius: 50%;
+	left: 130px;
+	top: -200px;
+
+}
+
+.nombreAnimalFicha{
+	position: relative;
+	margin: auto;
+	color: #77D9C3;
+	font-size: 32px;
+	margin-top: 15px;
+	font-family: rubik;
+	vertical-align: center;
+}
+
+span.nchip, input.nchip{
+	font-family: karla_normal;
+	color: #77D9C3;
+	font-size: 14px;
+	line-height: 17px;
+	margin: auto;
+	margin-top: 6px;
+	margin-bottom: 15px;
+	text-align: center;
+	
+}
+
+input.nombreAnimalFicha, input.nchip{
+	padding-top: 12px;
+}
+
+
+
+div.cont_atributos_colIzq{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: #F4F4F4;
+	border-radius: 10px;
+	padding-left: 13px;
+	padding-top:13px ;
+	padding-bottom: 11px;
+	margin-bottom: 12px;
+}
+
+span.labelAtributoAnimal{
+	color: #77D9C3;
+	font-size: 14px;
+	line-height: 17px;
+	font-family: karla_normal;
+	display: inline-block;
+}
+
+span.datoAtributoAnimal{
+	color: #838383;
+	font-size: 16px;
+	line-height: 19px;
+	font-family: karla_normal;
+	
+}
+
+
+
+.labelTituloAtritutos{
+	color: #77D9C3;
+	line-height: 28px;
+	font-size: 24px;
+	font-family: rubik;
+	
+}
+
+.grupoAtributos{
+	margin-bottom: 18px;
+	margin-top: 15px;
+}
+
+.cont_InfoSalud{
+	background-color: white;
+	border-radius: 10px;
+	padding-top: 29px;
+	padding-left: 45px;
+	min-height: 285px;
+	padding-bottom: 24px;
+	width: 357px;
+}
+
+.cont_desc_coment{
+	background-color: white;
+	border-radius: 10px;
+	padding-left: 25px;
+	padding-bottom:33px ;
+	padding-top: 29px;
+	margin-left: 1px;
+	width: 720px;
+	
+}
+
+.cont_desc_coment > div{
+	display: flex;
+	flex-direction: column;
+}
+
+.cont_desc_coment div > p{
+	margin-top: 24px;
+	font-family: karla_normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #838383;
+}
+
+
+/*B-Modificar rescate*/
+
+.cont_principal_modRescate{
+	margin-left: 250px;
+	width: 1130px;
+	margin-bottom: 150px;
+	
+}
+
+.cont_principal_modRescate hr{
+	width: 1250px;
+}
+
+.cont_principal_modRescate .columnaIzqFicha input{
+	border-radius: 4px;
+	border: 1px solid #838383;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+
+}
+
+.columnaIzqFicha .labelAtributoAnimal{
+	text-align: left;
+}
+
+.columnaIzqFicha select{
+	margin-top: 10px;
+	width: 150px;
+	border: 1px solid #838383;
+	font-family: karla_normal;
+	margin-bottom: 10px;
+}
+
+input.nombreAnimalFicha{
+	
+	width: 100%;
+	text-align: center;
+}
+
+.cont_machoHembra{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.cont_machoHembra label{
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+#fotoMod{
+	color: transparent;
+	border: 0;
+	font-family: karla_normal;
+	margin-top: 10px;
+}
+
+.cont_InfoSalud_Mod{
+	padding-top: 29px;
+	padding-left: 25px;
+	padding-right: 25px;
+	max-width: 430px;
+	border-radius:10px ;
+	height: 297px;
+	background-color: white;
+	
+	
+	
+}
+
+.cont_InfoSalud_Mod .container{
+	padding: 0;
+}
+
+.cont_InfoSalud_Mod .labelTituloAtritutos{
+	margin-bottom: 22px;
+}
+
+.cont_InfoSalud_Mod input, .cont_InfoSalud_Mod select{
+	font-family: karla_normal;
+	
+}
+
+.cont_InfoSalud_Mod .labelAtributoAnimal{
+	margin-bottom: 8px;
+	
+}
+
+.cont_InfoSalud_Mod select, .cont_InfoSalud_Mod input[type="date"]{
+	width: 150px;
+}
+
+
+
+.cont_datos_modRescat{
+	
+	
+	padding-left: 20px;
+	
+	
+}
+
+div.cont_datos_modRescate{
+	
+	margin: 0;
+	
+}
+.rowMod{
+	width: 1500px;
+}
+.btnAnyadir, .btnEliminar{
+	display: inline;
+	cursor: pointer;
+	position: relative;
+	top: 3px;
+	left: 4px;
+}
+
+.cont_InfoSalud_Mod input[type=checkbox].css-checkbox + label.css-label{
+	color: #838383;
+	margin-left: -20px;
+	font-size: 16px;
+}
+
+.btnEliminar{
+	top: 4px !important;
+	left: 3px !important;
+	border: none;
+	background-color: transparent;
+}
+
+button:disabled,
+button[disabled]{
+  border:none;
+  background-color:transparent;
+  opacity: 0.5;
+  cursor: default;
+  
+}
+
+.checksModRescate{
+	margin-left: 20px;
+}
+
+.rowMod textarea{
+	font-family: karla_normal;
+	color: #838383;
+	font-size: 16px;
+	line-height: 26px;
+}
+.cont_datos_modRescat .columnaIzqFicha{
+	height: 770px;
+	max-width: 350px;
+}
+
+.cont_datos_modRescat .cont_desc_coment{
+	display: flex;
+	flex-direction: column;
+	margin-left: -24px;
+	width: 875px;
+	padding-right: 50px;
+}
+
+
+.btnGuardarCambios{
+	padding:9px 15px 9px 15px;
+	background-color: #77D9C3;
+	color: white;
+	border-radius: 6px;
+	font-family: rubik-regular;
+	cursor: pointer;
+	margin-right: -20px;
+}
+
+.lineaFiltrosTitulo{
+	
+	padding-top: 10px;
+	padding-left: 33px;
+}
+
+
+.lineaFiltrosDatos{
+	padding-left: 33px;
+	margin-top: 10px;
+}
+
+.filtros {
+	margin-left: 250px;
+	background-color: white;
+	margin-top: 20px;	
+	width: 80%;
+	border-radius: 6px;
+	padding-bottom: 20px;
+}
+
+
+
+.filtros input[type="text"], .filtros select, .filtros input[type="date"]{
+	font-family: karla_normal;
+	color: #838383;
+	border: 1px solid #838383;
+	border-radius: 4px;
+	height: 30px;
+	max-width: 155px;
+}
+
+
+/*B-Tablas*/
+
+.cont_tabla_resto{
+	margin-top: 50px;
+	margin-left: 250px;
+	width: 70%;
+}
+
+.tabla_peq{
+	width: 40%;
+}
+
+.cont_tabla_resto .table th.sorting::before, 
+.cont_tabla .table th.sorting::before,
+.cont_tabla_resto .table th.sorting::after,
+.cont_tabla .table th.sorting::after,
+.cont_tabla_resto .table th.sorting_desc::before,
+.cont_tabla .table th.sorting_desc::before,
+.cont_tabla_resto .table th.sorting_desc::after,
+.cont_tabla .table th.sorting_desc::after,
+.cont_tabla_resto .table th.sorting_asc::after,
+.cont_tabla .table th.sorting_asc::after,
+.cont_tabla_resto .table th.sorting_asc::before,
+.cont_tabla .table th.sorting_asc::before,
+.cont_tabla_resto table thead th .sorting_disabled,
+.cont_tabla table thead th .sorting_disabled{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	
+}
+
+
+.cont_tabla_resto .table th.sorting_asc,
+.cont_tabla .table th.sorting_asc,
+.cont_tabla_resto .table th.sorting_desc,
+.cont_tabla .table th.sorting_desc{
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.cont_tabla_resto table thead th .sorting_disabled,
+.cont_tabla table thead th .sorting_disabled{
+	padding-bottom: 30px;
+}
+
+
+
+table tbody tr td{
+	font-size: 14px;
+	
+}
+
+.cont_tabla_resto .table thead,
+.table th {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.cont_tabla_resto .table{
+	margin-bottom: 40px;
+}
+
+.btn_icono_tabla{
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.cont_tabla_resto .dataTables_wrapper div:nth-child(3){
+	margin-top: 35px;
+}
+
+.noRightPadding{
+	padding-right: 0;
+}
+
+.noLeftPadding{
+	padding-left: 0;
+}
+
+/*B-Dialogos*/
+
+div.modal-body  img#imgDialogoConf{
+	margin-left: 55px;
+	margin-top: 30px;
+}
+
+.modal-footer{
+	padding-left: 69px;
+	padding-right: 69px;
+	justify-content: space-around;
+}
+
+.btnDialogo_Aceptar, .btnDialogo_Cancelar{
+	color: #FFFFFF;
+	background-color: #4F7FDD;
+	font-family: rubik-regular;
+	font-size: 18px;
+	border: none;
+	border-radius: 6px;
+	height: 32px;
+	width: 156px;
+	cursor: pointer;
+	
+}
+.btnDialogo_Aceptar:hover{
+background-color: #2559c1;
+}
+
+.btnDialogo_Cancelar:hover{
+	background-color: #fc3639;
+}
+
+.btnDialogo_Cancelar{
+	
+	background-color: #FD7A7C ;
+	
+}
+
+/*B-Estilo mensaje confirmacion*/
+
+.mensajeConfirmacion, .mensajeConfirmacionAjax, .mensajeError{
+	
+	margin-top: 30px;
+	margin-left: 250px;
+	width: 1149px;
+	background-color: #77D9C3;
+	border: 3px solid #AAAAAA  ;
+	font-family: karla_normal;
+	line-height: 50px;
+	padding-left: 10px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mensajeError{
+	background-color: #FD7A7C !important;
+	border: 3px solid  #fc3639 !important;
+}
+
+.mensajeConfirmacionAjax{
+	display: none;
+}
+
+.btn_cerrarConfirmacion{
+	background-color: transparent;
+	border: none;
+	margin-right: 10px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+
+.btn_cerrarConfirmacion img{
+	height: 15px;
+	width: 15px;
+}
+
+/*B-DropDown campos*/
+
+.dropCampos{
+	font-family: karla_normal;
+	background-color: #4F7FDD;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	padding: 6px 8px 6px 8px;
+	margin-top: 1px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.listaDrop{
+	
+	font-family: karla_normal;
+	padding: 10px;
+	width: 220px;
+}
+
+.listaDrop li{
+	margin-bottom: 5px;
+}
+
+.listaDrop li input{
+	margin-right: 5px;
+}
+
+table#tablaGastosUsuario{
+	width: 30%;
+}
+
+/*B-Misc*/
+
+#btnCrearAdop, #btnCrearAdop img{
+	height: 16px;
+	width: 16px;
+	
+}
+
+#btnCrearAdop{
+	display: inline;
+	margin-left: 5px;
+	cursor: pointer;
+	
+}
+
+#nSelAdoptante{
+	margin-bottom: 5px;
+}
+
+
+
+
+.slide-in-top {
+	-webkit-animation: slide-in-top 1.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+			animation: slide-in-top 1.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  @-webkit-keyframes slide-in-top {
+	0% {
+	  -webkit-transform: translateY(-1000px);
+			  transform: translateY(-1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateY(0);
+			  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+  @keyframes slide-in-top {
+	0% {
+	  -webkit-transform: translateY(-1000px);
+			  transform: translateY(-1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateY(0);
+			  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+
+
+  .aclaratorio{
+	  font-family: karla_normal;
+	  margin-top: 5px;
+	  font-size: 14px;
+	  color: #838383;
+  }
+
+  *:focus{
+	  outline: none;
+  }
+
+  /*Modal nuevo usuario*/
+
+#mens_conf_usu_reg{
+	line-height: 20px;
+}
+
+@media only screen and (max-width:1440px){
+	/*Fondo login*/
+	.bg{
+		height: 150%;
+	}
+
+	/*Navbar*/
+	nav{
+		width: 70%;
+	}
+	/*Imagen dashboard*/
+	.ilustracion img:first-child{
+		width: 300px;
+		height: 315px;
+	}
+	.ilustracion img:first-child{
+		top: -200px;
+		left: 500px;
+	}
+
+	.cont_entidades_pc{
+		width: 135%;
+	}
+	.filtros{
+		width: 80%;
+	}
+}
+
+/*Pagina de error 404*/
+#cont_text_error, #cont_text_error403 {
+	top: 18%;
+	left: 40%;
+}
+
+#cont_text_error403{
+	left: 30% !important;
+}
+
+#cont_text_error #textoError, #cont_text_error #subTextError, #cont_text_error403 #textoError403{
+	color: #4F7FDD;
+	font-family: rubik;
+}
+
+#cont_text_error #textoError{
+	font-size: 100px;
+	
+}
+
+#cont_text_error #subTextError, #cont_text_error403 #textoError403{
+	margin-top: 10%;
+	font-size: 22px;
+}
+
+#img404{
+	margin-top: 10%;
+}
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
